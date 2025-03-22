@@ -31,9 +31,9 @@ export default function Home() {
       <main className="flex-1 container py-12">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <div className="space-y-2">
-            <h2 className="text-4xl font-bold tracking-tight">Turn Any Text Into a Quiz Game</h2>
+            <h2 className="text-4xl font-bold tracking-tight">Turn Any Topic Into a Quiz Game</h2>
             <p className="text-xl text-white">
-              Paste your research, article, or study material and play a millionaire-style quiz game
+              Paste your study material to instantly generate and play a millionaire-style quiz game
             </p>
           </div>
 
@@ -46,18 +46,18 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-3">
             <div className="bg-zinc-900 p-6 rounded-lg border border-zinc-800">
               <Sparkles className="h-10 w-10 text-[rgb(255,136,0)] mb-2" />
-              <h3 className="text-xl font-bold">Learn While Playing</h3>
-              <p className="text-white mt-2">Transform boring study material into an engaging quiz game</p>
+              <h3 className="text-xl font-bold">Instant Quiz Generation</h3>
+              <p className="text-white mt-2">Generate quizzes on-the-fly from any study material or text</p>
             </div>
             <div className="bg-zinc-900 p-6 rounded-lg border border-zinc-800">
               <Sparkles className="h-10 w-10 text-[rgb(255,136,0)] mb-2" />
-              <h3 className="text-xl font-bold">Authentic Experience</h3>
-              <p className="text-white mt-2">Enjoy lifelines, money ladder, and all the excitement of the show</p>
+              <h3 className="text-xl font-bold">Game-Show Experience</h3>
+              <p className="text-white mt-2">Enjoy lifelines, money ladder, and all the excitement of a quiz show</p>
             </div>
             <div className="bg-zinc-900 p-6 rounded-lg border border-zinc-800">
               <Users className="h-10 w-10 text-[rgb(255,136,0)] mb-2" />
               <h3 className="text-xl font-bold">Multiplayer Mode</h3>
-              <p className="text-white mt-2">Compete with friends in a Kahoot-style quiz game with points and timing</p>
+              <p className="text-white mt-2">Compete with friends in a fast-paced quiz game with points and timing</p>
             </div>
           </div>
         </div>
